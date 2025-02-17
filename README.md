@@ -2,6 +2,9 @@
 
 Este projeto é um sistema simples para criação e gerenciamento de enquetes, onde os usuários podem criar enquetes com várias opções e votar nelas. A aplicação foi desenvolvida com JavaScript no frontend e uma API backend em Node.js para armazenar os dados das enquetes.
 
+##Observação
+-- **votacao_db.txt** essa file está localizado o banco de dados que eu fiz dentro d dbeaver
+
 ## Tecnologias Utilizadas
 
 - **Frontend**: HTML, CSS, JavaScript
@@ -24,3 +27,5 @@ Clone este repositório para a sua máquina local:
 
 ```bash
 git clone https://github.com/seu-usuario/enquete-app.git
+
+
