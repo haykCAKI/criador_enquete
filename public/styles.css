@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #495057;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.enquete {
+  border: 1px solid #dee2e6;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.enquete:hover {
+  transform: scale(1.02);
+}
+
+.enquete h3 {
+  margin-top: 0;
+  color: #343a40;
+}
+
+.opcoes {
+  margin-top: 10px;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  border-radius: 4px;
+  background: #f8f9fa;
+  gap: 10px; 
+}
+
+.opcao span {
+  flex: 1; 
+}
+
+.opcao button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0; 
+  white-space: nowrap; 
+}
+
+.opcao button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Enquete expirada - Fundo avermelhado */
+.enquete.expirada {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+}
+
+/* Enquete ativa - Fundo verde claro */
+.enquete.ativa {
+  background-color: #d4edda;
+  border-color: #28a745;
+}
+
+/* Botão de exclusão */
+.btn-excluir {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.btn-excluir:hover {
+  background-color: #c82333;
+}
+
+.btn-tirar-voto {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-tirar-voto:hover {
+  background-color: #c82333;
+}

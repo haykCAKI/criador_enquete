@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Enquete</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Criar Nova Enquete</h1>
+    <form id="form-enquete">
+      <label for="titulo">Título da Enquete:</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="data_inicio">Data de Início:</label>
+      <input type="datetime-local" id="data_inicio" name="data_inicio" required>
+
+      <label for="data_termino">Data de Término:</label>
+      <input type="datetime-local" id="data_termino" name="data_termino" required>
+
+      <div id="opcoes-container">
+        <label>Opções de Resposta:</label>
+        <input type="text" class="opcao-input" placeholder="Opção 1" required>
+        <input type="text" class="opcao-input" placeholder="Opção 2" required>
+        <input type="text" class="opcao-input" placeholder="Opção 3" required>
+      </div>
+
+      <button type="button" id="adicionar-opcao">Adicionar Opção</button>
+      <button type="submit">Criar Enquete</button>
+    </form>
+
+    <a href="main.html">Voltar para a lista de enquetes</a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
